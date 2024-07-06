@@ -4,17 +4,24 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <Text style={styles.text}>
+        My name is <Text style={styles.boldText}>Eben Kojo Kesson</Text>
+        </Text>
+      </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'cyan',  //change to desired background color
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text: {
+    fontSize: 24,
+  },
+  boldText: {
+    fontWeight: 'bold'
+  }
 });
