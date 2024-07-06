@@ -20,13 +20,13 @@ This is the second assignment for the DCIT202 Mobile Application Development cou
 
 ![Screenshot of the Application]![screenshot](https://github.com/Kesson183/rn-assignment2-ID-11022036/assets/174213846/ac1fc085-6653-49b4-a314-77cd4debb84a)
 
-
 ## Student ID
 
 11022036
 
 ## App.js
 
+```javascript
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
